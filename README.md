@@ -12,11 +12,15 @@ This repository presents the design of Schmitt Trigger NAND gate implemented usi
 - [Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-1)
 - [Symbol of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#symbol-of-schmitt-trigger-nand-gate)
 - [Schmitt Trigger NAND Gate Waveform](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-waveform)
+- [Netlist of CMOS NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#netlist-of-cmos-nand-gate)
+- [Netlist of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#netlist-of-schmitt-trigger-nand-gate)
+- [Reference](https://github.com/shivbaba/kirti/edit/main/README.md#reference)
 - [Acknowledgements](https://github.com/shivbaba/kirti/edit/main/README.md#acknowledgements)
+- [Author](https://github.com/shivbaba/kirti/edit/main/README.md#author)
 
 # Abstract
 A two input Basic CMOS NAND gate can be implemented as a Schmitt trigger NAND gate by
-adding one PMOS and NMOS at each p-stage and N-stage of the circuit.These transistors control the hysteresis width.By expanding the Schmitt trigger to NAND gate, we can dramatically improve the noise immunity with much lower switching power consumption and significant area reduction compared with CMOS Schmitt triggers, at the expense of a slight increase in delay.
+adding one PMOS and NMOS at each p-stage and N-stage of the circuit.[1] These transistors control the hysteresis width.By expanding the Schmitt trigger to NAND gate, we can dramatically improve the noise immunity with much lower switching power consumption and significant area reduction compared with CMOS Schmitt triggers, at the expense of a slight increase in delay.[2]
 # INTRODUCTION
 NAND gate is important because we can implement any
 type of boolean function using combination of NAND gate
@@ -27,7 +31,7 @@ NOT (a1 AND a2 AND a3……AND an).
 For NAND gate, when both inputs are low, all PMOS transistors turn ON and the VDD is pulled to output as
 high. When either of the inputs is high, VDD is pulled to Output as high through any current path formed by
 PMOS devices. When both inputs are low, all PMOS transistors turn OFF, all NMOS transistors turn ON and
-the output is low.
+the output is low.[1]
 # Detailed Explanation
 It consists of two series NMOS transistors between Z and
 ground and two parallel PMOS transistor between Z and
@@ -48,6 +52,13 @@ Case3: VA – High: pMOS1 – OFF; nMOS1 – ON
 Case4: VA – Low & VB – Low
 
 Both the pMOS will be ON and both the nMOS will be OFF
+
+# Tools Used
+•	Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+
+•	Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+•	Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Circuits and Waveforms
 # CMOS NAND Gate
@@ -71,19 +82,22 @@ Schmitt Trigger NAND GATE SCHEMATIC
 # Symbol of Schmitt Trigger NAND Gate
 ![105](https://github.com/shivbaba/kirti/blob/main/schmitt%20trigger%20nand%20symbol.png)
 
-# Schmitt Trigger NAND Gate Waveform
+# Schmitt Trigger NAND Gate Waveform.
 ![106](https://github.com/shivbaba/kirti/blob/main/schmitt%20nand%20waveform.png)
 SIMULATION RESULT 
 
+# Netlist of CMOS NAND Gate
+
+
+# Netlist of Schmitt Trigger NAND Gate
 
 
 
-# Tools Used
-•	Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+# Reference
+[1] Syed Ameer Hussain,"Design of Schmitt Trigger Circuits Using
+VTCMOS for Sub-Threshold Circuits", International Journal of Computer Science and Mobile Computing - IJCSMC (Vol.7, No. 6).
 
-•	Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
-
-•	Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+[2] Kyungsoo Kim, SoYoung Kim,"Design of Schmitt Trigger Logic Gates Using DTMOS for Enhanced Electromagnetic Immunity of Subthreshold Circuits", IEEE Transactions on Electromagnetic Compatibility ( Volume: 57, Issue: 5, Oct. 2015).
 
 # Acknowledgements
 - [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
@@ -91,3 +105,6 @@ SIMULATION RESULT
 - [Synopsys India](https://www.synopsys.com/)
 - [Sameer Durgoji, NIT Karnataka](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
 - [Chinmay panda, IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+
+# Author
+ Kirti,Ph.D.Microelectronics Engineering, Indian Institute of Technology (BHU),Varanasi 221005
