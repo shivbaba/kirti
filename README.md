@@ -7,9 +7,12 @@ This repository presents the design of Schmitt Trigger NAND gate implemented usi
 - [Tools Used](https://github.com/shivbaba/kirti/edit/main/README.md#tools-used)
 - [Circuits and Waveforms](https://github.com/shivbaba/kirti/edit/main/README.md#circuits-and-waveforms)
 - [CMOS NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#cmos-nand-gate)
+- [Symbol of CMOS NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#symbol-of-cmos-nand-gate)
 - [CMOS NAND Gate Waveform](https://github.com/shivbaba/kirti/edit/main/README.md#cmos-nand-gate-waveform)
-- [Schmitt Trigger NAND Gate]()
-- [Acknowledgements](https://github.com/shivbaba/kirti/blob/main/README.md#acknowledgements)
+- [Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-1)
+- [Symbol of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#symbol-of-schmitt-trigger-nand-gate)
+- [Schmitt Trigger NAND Gate Waveform](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-waveform)
+- [Acknowledgements](https://github.com/shivbaba/kirti/edit/main/README.md#acknowledgements)
 
 # Abstract
 A two input Basic CMOS NAND gate can be implemented as a Schmitt trigger NAND gate by
@@ -62,13 +65,14 @@ Both the pMOS will be ON and both the nMOS will be OFF
 
 # Schmitt Trigger NAND Gate
 ![104](https://github.com/shivbaba/kirti/blob/main/schmit%20triiger%20nand%20schematic.png)
-  Schmitt Trigger NAND GATE SCHEMATIC
+
+Schmitt Trigger NAND GATE SCHEMATIC
   
 # Symbol of Schmitt Trigger NAND Gate
-![105]()
+![105](https://github.com/shivbaba/kirti/blob/main/schmitt%20trigger%20nand%20symbol.png)
 
 # Schmitt Trigger NAND Gate Waveform
-![106]()
+![106](https://github.com/shivbaba/kirti/blob/main/schmitt%20nand%20waveform.png)
 SIMULATION RESULT 
 
 
