@@ -52,11 +52,14 @@ Case3: VA – High: pMOS1 – OFF; nMOS1 – ON
 Case4: VA – Low & VB – Low
 
 Both the pMOS will be ON and both the nMOS will be OFF
+
 ![100](https://github.com/shivbaba/kirti/blob/main/cmos%20nand%20reference.jpg)
 CMOS NAND Gate
-![109]()
+
+![109](https://github.com/shivbaba/kirti/blob/main/schmitt%20trigger%20nand%20gate.jpg)
 Schmitt Trigger NAND Gate
-![108]()
+
+![108](https://github.com/shivbaba/kirti/blob/main/cmos%20nand%20waveform.jpg)
 Waveforms for CMOS NAND Gate and Schmitt Trigger NAND Gate
 
 # Tools Used
