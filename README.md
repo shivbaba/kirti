@@ -52,6 +52,12 @@ Case3: VA – High: pMOS1 – OFF; nMOS1 – ON
 Case4: VA – Low & VB – Low
 
 Both the pMOS will be ON and both the nMOS will be OFF
+![100](https://github.com/shivbaba/kirti/blob/main/cmos%20nand%20reference.jpg)
+CMOS NAND Gate
+![109]()
+Schmitt Trigger NAND Gate
+![108]()
+Waveforms for CMOS NAND Gate and Schmitt Trigger NAND Gate
 
 # Tools Used
 •	Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
