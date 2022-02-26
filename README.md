@@ -40,6 +40,9 @@ Case3: VA – High: pMOS1 – OFF; nMOS1 – ON
 
 Case4: VA – Low & VB – Low
 
+# Circuits and Waveforms
+
+
 Both the pMOS will be ON and both the nMOS will be OFF
 
 # Tools Used
