@@ -40,10 +40,10 @@ Case3: VA – High: pMOS1 – OFF; nMOS1 – ON
 
 Case4: VA – Low & VB – Low
 
-# Circuits and Waveforms
-
-
 Both the pMOS will be ON and both the nMOS will be OFF
+
+# Circuits and Waveforms
+![101]()
 
 # Tools Used
 •	Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
