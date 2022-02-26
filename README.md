@@ -87,7 +87,7 @@ Schmitt Trigger NAND GATE SCHEMATIC
 SIMULATION RESULT 
 
 # Netlist of CMOS NAND Gate
-
+[](https://github.com/shivbaba/kirti/blob/main/netlist%20of%20cmos%20nand%20gate)
 
 # Netlist of Schmitt Trigger NAND Gate
 
