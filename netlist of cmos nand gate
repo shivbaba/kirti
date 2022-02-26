@@ -1,0 +1,50 @@
+*  Generated for: PrimeSim
+*  Design library name: cp_lib5
+*  Design cell name: nAND_TB
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 21 16:39:57 2022
+
+.global vdd gnd!
+********************************************************************************
+* Library          : cp_lib5
+* Cell             : NaNd
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nand a b out
+xm1 out a net7 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm0 net7 b gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm3 out b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm2 out a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+.ends nand
+
+********************************************************************************
+* Library          : cp_lib5
+* Cell             : nAND_TB
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 vina vinb output nand
+v11 vina gnd! dc=0 pulse ( 1.8 0 0 1n 1n 20n 40n )
+v10 vinb gnd! dc=0 pulse ( 1.8 0 0 1n 1n 40n 80n )
+v8 vdd gnd! dc=1.8
+c9 output gnd! c=10f
+
+.tran '1f' '320n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(output) v(vina) v(vinb)
+
+.temp 25
+
+.option primesim_output=wdf
+
+.option parhier = LOCAL
+
+.end
