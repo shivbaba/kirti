@@ -50,12 +50,18 @@ Both the pMOS will be ON and both the nMOS will be OFF
 # CMOS NAND Gate
 
 ![101](https://github.com/shivbaba/kirti/blob/main/cmos%20nand.png)
+                    NAND GATE SCHEMATIC
+
+# Symbol of CMOS NAND Gate
+![102](https://github.com/shivbaba/kirti/blob/main/nand%20symbol.png)
 
 # CMOS NAND Gate Waveform
 
-![102](https://github.com/shivbaba/kirti/blob/main/cmos%20nand%20waveform.png)
+![103](https://github.com/shivbaba/kirti/blob/main/cmos%20nand%20waveform.png)
+                    SIMULATION RESULT 
 
 # Schmitt Trigger NAND Gate
+![104]()
 
 
 
