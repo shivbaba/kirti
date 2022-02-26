@@ -61,7 +61,16 @@ Both the pMOS will be ON and both the nMOS will be OFF
                     SIMULATION RESULT 
 
 # Schmitt Trigger NAND Gate
-![104]()
+![104](https://github.com/shivbaba/kirti/blob/main/schmit%20triiger%20nand%20schematic.png)
+  Schmitt Trigger NAND GATE SCHEMATIC
+  
+# Symbol of Schmitt Trigger NAND Gate
+![105]()
+
+# Schmitt Trigger NAND Gate Waveform
+![106]()
+SIMULATION RESULT 
+
 
 
 
