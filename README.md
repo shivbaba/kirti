@@ -5,6 +5,10 @@ This repository presents the design of Schmitt Trigger NAND gate implemented usi
 - [INTRODUCTION](https://github.com/shivbaba/kirti/edit/main/README.md#introduction)
 - [Detailed Explanation](https://github.com/shivbaba/kirti/edit/main/README.md#detailed-explanation)
 - [Tools Used](https://github.com/shivbaba/kirti/edit/main/README.md#tools-used)
+- [Circuits and Waveforms](https://github.com/shivbaba/kirti/edit/main/README.md#circuits-and-waveforms)
+- [CMOS NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#cmos-nand-gate)
+- [CMOS NAND Gate Waveform](https://github.com/shivbaba/kirti/edit/main/README.md#cmos-nand-gate-waveform)
+- [Schmitt Trigger NAND Gate]()
 - [Acknowledgements](https://github.com/shivbaba/kirti/blob/main/README.md#acknowledgements)
 
 # Abstract
@@ -43,11 +47,17 @@ Case4: VA – Low & VB – Low
 Both the pMOS will be ON and both the nMOS will be OFF
 
 # Circuits and Waveforms
-CMOS NAND Gate
+# CMOS NAND Gate
+
 ![101](https://github.com/shivbaba/kirti/blob/main/cmos%20nand.png)
 
-CMOS NAND Gate Waveform
-![102]()
+# CMOS NAND Gate Waveform
+
+![102](https://github.com/shivbaba/kirti/blob/main/cmos%20nand%20waveform.png)
+
+# Schmitt Trigger NAND Gate
+
+![103]()
 
 # Tools Used
 •	Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
