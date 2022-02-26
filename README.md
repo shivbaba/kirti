@@ -5,6 +5,7 @@ This repository presents the design of Schmitt Trigger NAND gate implemented usi
 - [INTRODUCTION](https://github.com/shivbaba/kirti/edit/main/README.md#introduction)
 - [Detailed Explanation](https://github.com/shivbaba/kirti/edit/main/README.md#detailed-explanation)
 - [Tools Used](https://github.com/shivbaba/kirti/edit/main/README.md#tools-used)
+- [Acknowledgements](https://github.com/shivbaba/kirti/blob/main/README.md#acknowledgements)
 
 # Abstract
 A two input Basic CMOS NAND gate can be implemented as a Schmitt trigger NAND gate by
