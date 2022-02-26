@@ -1,0 +1,53 @@
+*  Generated for: PrimeSim
+*  Design library name: schmitt1
+*  Design cell name: cp_schmit1_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Fri Feb 25 12:53:22 2022
+
+.global vdd gnd! vdd!
+********************************************************************************
+* Library          : schmitt1
+* Cell             : cp_schmit1
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cp_schmit1 a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
+xm4 gnd! out net10 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm3 out b net10 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 net10 b vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 out a net10 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net10 a vdd vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm10 vdd out net31 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm9 net22 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm8 net31 a net22 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm7 net18 a net31 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 out b net18 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+.ends cp_schmit1
+
+********************************************************************************
+* Library          : schmitt1
+* Cell             : cp_schmit1_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 vina vinb out gnd! vdd! cp_schmit1
+v22 vinb gnd! dc=0 pulse ( 1.2 0 0 1n 1n 40n 80n )
+v21 vina gnd! dc=0 pulse ( 1.2 0 0 1n 1n 20n 40n )
+v8 vdd gnd! dc=1.5
+c23 net44 gnd! c=10p
+r14 out net44 r=1meg
+
+.tran '1f' '320n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(vina) v(vinb) v(out)
+.temp 25
+.option primesim_output=wdf
+.option parhier = LOCAL
+.end
