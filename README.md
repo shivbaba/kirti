@@ -12,6 +12,7 @@ This repository presents the design of Schmitt Trigger NAND gate implemented usi
 - [Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-1)
 - [Symbol of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#symbol-of-schmitt-trigger-nand-gate)
 - [Schmitt Trigger NAND Gate Waveform](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-waveform)
+- [Transient Settings](https://github.com/shivbaba/kirti/edit/main/README.md#transient-settings)
 - [Netlist of CMOS NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#netlist-of-cmos-nand-gate)
 - [Netlist of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#netlist-of-schmitt-trigger-nand-gate)
 - [Reference](https://github.com/shivbaba/kirti/edit/main/README.md#reference)
@@ -94,6 +95,9 @@ Schmitt Trigger NAND GATE SCHEMATIC
 # Schmitt Trigger NAND Gate Waveform.
 ![106](https://github.com/shivbaba/kirti/blob/main/schmitt%20nand%20waveform.png)
 SIMULATION RESULT 
+
+# Transient Settings
+![107](https://github.com/shivbaba/kirti/blob/main/schmitt%20trigger%20property.png)
 
 # Netlist of CMOS NAND Gate
 Refer to the netlist of the CMOS NAND Gate circuit here: [netlist of cmos nand gate](https://github.com/shivbaba/kirti/blob/main/netlist%20of%20cmos%20nand%20gate)
