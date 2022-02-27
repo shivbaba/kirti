@@ -12,6 +12,8 @@ This repository presents the design of Schmitt Trigger NAND gate implemented usi
 - [Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-1)
 - [Symbol of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#symbol-of-schmitt-trigger-nand-gate)
 - [Schmitt Trigger NAND Gate Waveform](https://github.com/shivbaba/kirti/edit/main/README.md#schmitt-trigger-nand-gate-waveform)
+- [Parameters set for Voltage Source for Input A ](https://github.com/shivbaba/kirti/edit/main/README.md#parameters-set-for-voltage-source-for-input-a)
+- [Parameters set for Voltage Source for Input B](https://github.com/shivbaba/kirti/edit/main/README.md#parameters-set-for-voltage-source-for-input-b)
 - [Transient Settings](https://github.com/shivbaba/kirti/edit/main/README.md#transient-settings)
 - [Netlist of CMOS NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#netlist-of-cmos-nand-gate)
 - [Netlist of Schmitt Trigger NAND Gate](https://github.com/shivbaba/kirti/edit/main/README.md#netlist-of-schmitt-trigger-nand-gate)
@@ -96,6 +98,11 @@ Schmitt Trigger NAND GATE SCHEMATIC
 ![106](https://github.com/shivbaba/kirti/blob/main/schmitt%20nand%20waveform.png)
 SIMULATION RESULT 
 
+# Parameters set for Voltage Source for Input A 
+![108](https://github.com/shivbaba/kirti/blob/main/voltage%20parameter%20for%20A.jpg)
+ 
+# Parameters set for Voltage Source for Input B
+![109](https://github.com/shivbaba/kirti/blob/main/voltage%20parameter%20for%20B.jpg)
 # Transient Settings
 ![107](https://github.com/shivbaba/kirti/blob/main/schmitt%20trigger%20property.png)
 
